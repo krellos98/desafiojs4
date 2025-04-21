@@ -1,0 +1,38 @@
+.main-section {
+    background-image: url('../img/img-main.jpeg');
+    background-size: cover; 
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.tarjeta {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    background: #fff;
+  }
+  
+  .tarjeta img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .tarjeta-cuerpo {
+    padding: 16px;
+  }
+  
+  .texto-verde {
+    color: #28a745;
+  }
+  
+  .texto-rojo {
+    color: #dc3545;
+  }
+  
